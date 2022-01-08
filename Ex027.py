@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: '))
+nome1 = nome.split()
+cont = nome.split()
+cont1 = len(cont[0])
+print(f'Seu primeiro nome: {nome1[0].title()}')
+print(f'Seu ultimo nome: {nome1[len(nome1)-1]}')
+print(f'Seu  primeiro nome tem {cont1} letras')
