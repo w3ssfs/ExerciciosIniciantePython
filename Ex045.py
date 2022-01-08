@@ -1,4 +1,5 @@
 import random
+from time import sleep
 print('\033[1;36m-=\033[m'*30)
 print('\033[1;33m                        JOKENPÔ\033[m   ')
 print('\033[1;36m-=\033[m'*30)
@@ -13,9 +14,18 @@ print('\033[1;36m-=\033[m'*30)
 
 print('\033[1;33m                 ESCOLHA UMA DAS OPÇÕES\033[m')
 print('\033[1;36m-=\033[m'*30)
+
 print('\033[1;34m [1] PEDRA\033[m                \033[1;35m[2] PAPEL\033[m             \033[1;32m[3] TESSOURA\033[m')
 print('\033[1;36m-=\033[m'*30)
 luk = int(input(''))
+print('\033[1;36m-=\033[m'*30)
+sleep(1)
+print(' '*27+'\033[1;39mJO\033[m')
+sleep(1)
+print(' '*27+'\033[1;31mKEN\033[m')
+sleep(1)
+print(' '*27+'\033[1;32mPÔ\033[m')
+sleep(1)
 print('\033[1;36m-=\033[m'*30)
 if luk == 1:
     esc = 'pedra'.upper()
