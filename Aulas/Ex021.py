@@ -5,8 +5,8 @@ print('========== DESAFIO 21 ==========')
 
 pygame.init()
 
-if os.path.exists('mcdd.mp3'):
-    pygame.mixer.music.load('mcdd.mp3')
+if os.path.exists('../mcdd.mp3'):
+    pygame.mixer.music.load('../mcdd.mp3')
     pygame.mixer.music.play()
     pygame.mixer.music.set_volume(1)
 

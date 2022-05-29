@@ -1,14 +1,14 @@
 import math
-print('\033[33m-='*35)
-print('                          Calculadora\033[m')
-print('\033[33m-=\033[m'*35)
+print('\033[33m-='*10)
+print(f"{'CALCULADORA':^20}")
+print('\033[33m-=\033[m'*10)
 
 i = 1
 while i == 1:
     num = float(input('number: '))
     num2 = float(input('number two: '))
     print('[1] Dividir \n[2] Multiplicar \n[3] Somar \n[4] Subtrair \n[5] Raiz \n[6] Quadrado')
-    ope = int(input(':'))
+    ope = int(input('>> '))
     if ope == 1:
         tot = num / num2
         print(f'{num} / {num2} = {tot:.2f}')
